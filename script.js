@@ -36,14 +36,16 @@ const courses = [{
 ]
 
 const searchCourse = document.querySelector('#searchCourses');
+const footer = document.querySelector('.contact-footer');
 
 searchCourse.addEventListener('input', () => {
-
     const searchVal = searchCourse.value.toLowerCase()
     const searched = courses.filter(course => course.courseName.includes(searchVal))
     const courseList = document.querySelector('#course-list');
+    footer.style.display = 'block';
     console.log(searched)
     if (searched == 0) {
+        footer.style.display = 'none';
         return courseList.innerHTML =
             `
      <h1 class='m-auto text-center'>No Results</h1>
