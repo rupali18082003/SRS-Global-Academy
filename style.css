@@ -96,13 +96,10 @@ a {
 }
 
 .header {
-    width: 60%;
     text-shadow: 2px 2px 2px black;
 }
 
-.header h2 {
-    font-size: 4rem;
-}
+.header h2 {}
 
 .btnGS {
     margin: 5% 10%;
@@ -266,4 +263,29 @@ a {
 
 .principal-text {
     line-height: 2;
+}
+
+#hundreds {
+    animation-name: rotating;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes rotating {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(5%, 0);
+    }
+    50% {
+        transform: translate(7%, -15%);
+    }
+    75% {
+        transform: translate(5%, -30%);
+    }
+    100% {
+        transform: translate(-5%, 15%)
+    }
 }
