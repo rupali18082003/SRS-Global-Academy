@@ -161,8 +161,8 @@ a {
 
 .item img {
     height: 170px;
-    transform: translateY(-40%);
-    border-radius: 20px;
+    /*transform: translateY(-40%);*/
+    /*border-radius: 20px;*/
 }
 
 
@@ -171,7 +171,7 @@ a {
 @media (max-width: 700px) {
     .headers {
         padding: 1rem;
-        height: 50vh;
+        height: 100vh;
     }
     .header {
         width: 100%;
@@ -256,20 +256,26 @@ a {
 
 .principal-text-bg {
     background-image: url('https://www.business.com/images/content/600/6e62b9c658a5f418b4567/1500-0-');
-    height: 600px;
+    /*height: 500px;*/
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .principal-text {
-    line-height: 2;
+    line-height: 1.5;
+    /*margin: 10px;*/
 }
-
+.principal-text h5{
+    padding: 20px;
+}
 #hundreds {
     animation-name: rotating;
     animation-iteration-count: infinite;
     animation-duration: 15s;
     animation-direction: alternate-reverse;
+}
+.txt{
+    padding: 0px;
 }
 
 @keyframes rotating {
@@ -288,4 +294,166 @@ a {
     100% {
         transform: translate(-5%, 15%)
     }
+}
+
+.search{
+    width: 300px;
+    padding: 5px;
+}
+.search i{
+    margin: 10px 5px;
+    float: right;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@**__ABOUT__ **@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.about{
+    text-align: center;
+}
+.abH{
+    background-image: url(images/about-bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 1rem;
+    background-color: grey;
+    background-blend-mode: multiply;
+    margin: auto;
+}
+.abH h1{
+    font-size: 4rem;
+    color: white;
+}
+.mission{
+    margin: 50px 30px;
+}
+.values{
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+.grp2{
+    display: flex;
+    margin-top: 20px;
+}
+.vl{
+    text-align: left;
+    margin: 30px;
+    width: 500px;
+    /*border: 1px solid black;*/
+    margin: 30px auto;
+    height: 130px;
+}
+.grp2 img{
+    width: 40%; 
+}
+.history{
+    margin: 5rem;
+}
+.history p{
+    text-align: left;
+    margin-left: 2rem;
+}
+.navbar-brand{
+    display: none;
+}
+@media (max-width: 700px){
+    .abH{
+        padding: 7rem;
+        background-image: url(images/about-bg2.jpg);
+    }
+    .abH h1{
+        font-size: 2.5rem;
+    }
+    .grp2{
+        display: block;
+    }
+    .values{
+        padding: 4rem;
+    }
+    .vl{
+        width: 100%;
+        height: auto;
+    }
+    .grp2 img{
+        height: auto;
+        width: 100%;    
+    }
+    .history{
+        margin: 1.5rem;
+    }
+    .history p{
+        text-align: left;
+        margin: 30px;
+    }
+    
+    .navbar-brand{
+        display: block;
+    }
+}
+
+/*@@@@@@@@@@@@@@@@@@@@**__CONTACT__ **@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.contact{
+    text-align: center;
+    background-color: #4d4d4d;
+    background-image: url(images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    /*height: 100vh;*/
+    padding-top: 3rem;
+}
+.contact-us{
+    display: flex;
+    padding: 3rem;
+}
+.social{
+    text-align: left;
+    margin: 2rem;
+}
+.msg{
+    text-align: left;
+    margin: 10px auto;
+    background-color: white;
+    padding: 20px;
+}
+form{
+
+    margin: 10px;
+}
+input{
+    display: block;
+    width: 300px;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.icons i{
+    margin: 10px;
+}
+
+@media (max-width: 900px){
+    .contact-us{
+        display: block;
+        padding: 2rem;
+    }
+    .social{
+        text-align: center;
+    }
+    .msg{
+        padding: 15px;
+    }
+    input{
+        display: block;
+        width: 90%;
+        padding: 15px;
+        border: none;
+        border-bottom: 1px solid black;
+        margin-bottom: 10px;
+    }
+
+    .icons i{
+        margin: 10px;
+    }
+
 }
