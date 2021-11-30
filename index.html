@@ -4,116 +4,213 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>SRS Global Academy</title>
 </head>
 
 <body>
+
     <!-- section NAVBAR & HEADERS -->
     <section>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Course</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Contact us</a>
-              </li>
-            </ul>
-          </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!-- <button><span class="navbar-toggler"></span></button> -->
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Course</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="headers d-flex">
+            <div class="wow fadeInLeft header text-light m-auto text-center col-12 col-md-9 col-lg-6 ">
+                <div class=" fs-4 " id="hundreds">Hundreds of students are here</div>
+                <h1 class="fw-bold ">Enjoy learning Here at <br>SRS Academy</h1>
+                <h5 class="fw-normal ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+
+                <button class="btn btn-light btnGS fw-bold rounded-pill wow fadeInUpBig ">Get Started</button>
+            </div>
         </div>
-      </nav>
+        <div class="container p-5 my-5 d-flex align-items-center ">
+            <div class="d-flex shadow-lg flex-wrap p-3 mb-5 bg-white justify-content-between align-items-center ">
+                <iframe class="col-12 col-lg-5 " src="https://www.youtube.com/embed/5QcENhLss4c " width="500 " height="500 ">
+          </iframe>
+                <div class=" col-12 col-lg-5 p-5 p-lg-0 ">
+                    <h4 class="fs-3 fw-bold text-center ">Mission</h4>
+                    <h5 class="fw-normal text-muted ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod incididunt ut labore et sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</h5>
+                </div>
+            </div>
+        </div>
 
-      <div class="headers">
-      <div class="header text-light">
-        <h2 class="fw-bold">SRS Global Academy</h2>
-        <h5 class="fw-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
-
-        <button class="btn btn-light btnGS fw-bold rounded-pill">Get Started</button>
-      </div>
-    </div>
-
-    <div class="crd shadow-lg p-3 mb-5 bg-white rounded">
-      <iframe src="https://www.youtube.com/embed/5QcENhLss4c">
-      </iframe>
-
-      <div class="desc">
-        <h4 class="fs-3 fw-bold">Mission</h4>
-        <h5 class="fw-normal text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod incididunt ut labore et sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</h5>
-      </div>  
-    </div>
     </section>
 
     <!-- section EDUCATIONAL BOARED -->
-    <section class="eduBoard">
-      <div class="items">
-        <div class="item shadow-lg p-3 mb-5 bg-white rounded">
-          <img src="images/t1.png">
-          <div class="itemDesc">
-            <h5 class="title">Principal</h5>
-            <h5 class="title">Ayush Sharma</h5>
-            <p class="para">B.Tech, M.Tech, Ph.D</p>
-          </div>
-        </div>
+    <section class="eduBoard py-5 wow bounceIn">
+        <div class=" d-md-flex flex-wrap">
+            <div class="col-md-3 mt-5 item shadow-lg p-3 mb-5 bg-white rounded ">
+                <img src="images/t1.png ">
+                <div class="itemDesc ">
+                    <h5 class="title ">Principal</h5>
+                    <h5 class="title ">Ayush Sharma</h5>
+                    <p class="para ">B.Tech, M.Tech, Ph.D</p>
+                </div>
+            </div>
 
-        <div class="item shadow-lg p-3 mb-5 bg-white rounded">
-          <img src="images/t1.png">
-          <div class="itemDesc">
-            <h5 class="title">Vice Principal</h5>
-            <h5 class="title">Robbert</h5>
-            <p class="para">B.C.A, M.C.A, Ph.D</p>
-          </div>
-        </div>
+            <div class="col-md-3 mt-5 item shadow-lg p-3 bg-white rounded ">
+                <img src="images/t1.png ">
+                <div class="itemDesc ">
+                    <h5 class="title ">Vice Principal</h5>
+                    <h5 class="title ">Robbert</h5>
+                    <p class="para ">B.C.A, M.C.A, Ph.D</p>
+                </div>
+            </div>
 
-        <div class="item shadow-lg p-3 mb-5 bg-white rounded">
-          <img src="images/t1.png">
-          <div class="itemDesc">
-            <h5 class="title">Chief Director</h5>
-            <h5 class="title">Sharddha</h5>
-            <p class="para">B.B.A, B.C.A</p>
-          </div>
+            <div class="col-md-3 mt-5 col-8 item shadow-lg p-3 mb-5 bg-white rounded ">
+                <img src="images/t1.png ">
+                <div class="itemDesc ">
+                    <h5 class="title ">Chief Director</h5>
+                    <h5 class="title ">Sharddha</h5>
+                    <p class="para ">B.B.A, B.C.A</p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
 
     <!-- section  PRINCIPAL'S MSG & HISTORY-->
-    <section class="msg">
-      <div class="crd shadow-lg p-3 mb-5 bg-white rounded" style="transform: unset;">
+    <section class="msg my-5 principal-text-bg " id=" ">
+        <!-- <div class="d-md-flex shadow-lg p-3 mb-5 bg-white rounded " style="transform: unset; ">
 
-      <div class="desc">
-        <h4 class="fs-3 fw-bold">Principal's Message</h4>
-        <h5 class="fw-normal text-muted">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod incididunt ut labore et sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore eting.  <br>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod incididunt ut labore et sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+            <div class="col ">
+                <h4 class="fs-3 fw-bold ">Principal's Message</h4>
+                <h5 class="fw-normal text-muted ">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod incididunt ut labore et sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore eting. <br> Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod incididunt ut labore et sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
 
-        </h5>
-      </div>  
-      <img src="https://www.business.com/images/content/600/6e62b9c658a5f418b4567/1500-0-">
-    </div>
+                </h5>
+            </div>
+            <div class="col-12 col-md "><img src="https://www.business.com/images/content/600/6e62b9c658a5f418b4567/1500-0- " class="img-fluid "></div>
+        </div> -->
+        <div class="container d-flex " style="height: 100%; ">
+            <div class="m-auto col-12 col-lg-6 ">
+                <div class="bg-light p-5 principal-text wow heartBeat">
+                    <h4 class="fs-3 fw-bold principal-text ">Principal's Message</h4>
+                    <h5 class="fw-normal text-muted principal-text ">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod incididunt ut labore et sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore eting. <br> Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit, sed do eiusmod incididunt ut labore et sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+
+                    </h5>
+                </div>
+
+            </div>
+        </div>
     </section>
 
+    <!-- popular courses -->
+    <section class="p-5 bg-dark ">
+        <div class="container ">
+            <h2 class="text-center text-light text-uppercase ">Popular courses</h2>
+            <p class="text-center text-light lead ">
+                Here are some of the popular courses We offer
+            </p>
 
+            <div class="d-md-flex justify-content-around ">
+                <!-- cards for popular courses -->
+                <div class="card mx-3 col-md-5 col-lg-4 card-pop wow fadeInLeft">
+                    <img src="images/girl studying.jpg " alt=" ">
+                    <div class="card-body ">
+                        <div class="card-title h2 text-center ">
+                            Chemistry Online Courses
+                        </div>
+                        <div class="card-text ">
+                            <div class="d-flex justify-content-between py-3 ">
+                                <p class="lead "><i class="bi bi-bar-chart-steps text-success "></i> 4 Lessons </p>
+                                <p class="lead "><i class="bi bi-clock text-success "></i> 12 weeks</p>
+                            </div>
+                            <p>Lorem Ipsu is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>
+                            <div class="d-flex py-3 ">
+                                <p class="lead me-3 "><i class="bi bi-people text-success "></i> Buyers </p>
+                                <p class="lead "><i class="bi bi-chat-dots-fill text-success "></i> 12 weeks</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mx-3 col-md-5 col-lg-4 d-none d-md-flex card-pop wow fadeInRight">
+                    <img src="images/girl studying 2.jpg " alt=" ">
+                    <div class="card-body ">
+                        <div class="card-title h2 text-center ">
+                            Physics Online Courses
+                        </div>
+                        <div class="card-text ">
+                            <div class="d-flex justify-content-between py-3 ">
+                                <p class="lead "><i class="bi bi-bar-chart-steps text-success "></i> 4 Lessons </p>
+                                <p class="lead "><i class="bi bi-clock text-success "></i> 12 weeks</p>
+                            </div>
+                            <p>Lorem Ipsu is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>
+                            <div class="d-flex py-3 ">
+                                <p class="lead me-3 "><i class="bi bi-people text-success "></i> Buyers </p>
+                                <p class="lead "><i class="bi bi-chat-dots-fill text-success "></i> 12 weeks</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-4 mx-3 d-none d-lg-flex card-pop wow fadeInUp">
+                    <img src="images/girl studying 3.jpg " alt=" ">
+                    <div class="card-body ">
+                        <div class="card-title h2 text-center ">
+                            Maths Online Courses
+                        </div>
+                        <div class="card-text ">
+                            <div class="d-flex justify-content-between py-3 ">
+                                <p class="lead "><i class="bi bi-bar-chart-steps text-success "></i> 4 Lessons </p>
+                                <p class="lead "><i class="bi bi-clock text-success "></i> 12 weeks</p>
+                            </div>
+                            <p>Lorem Ipsu is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>
+                            <div class="d-flex py-3 ">
+                                <p class="lead me-3 "><i class="bi bi-people text-success "></i> Buyers </p>
+                                <p class="lead "><i class="bi bi-chat-dots-fill text-success "></i> 12 weeks</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card for popular courses ends -->
+
+
+            </div>
+
+            <div class="text-center rounded-pill p-5 "><button class="rotate-border p-3 btn btn-lg rounded-pill btn-primary "> MORE COURSES  </button></div>
+
+
+        </div>
+    </section>
     <!-- section FREQUENTLY ASKED QUESTIONS-->
-    <section id="questions" class="p-5">
-        <div class="container">
+    <section id="question" class="p-5 ">
+        <div class="container ">
 
 
-            <h1 class="text-center mb-5">Frequently Asked Questions</h1>
+            <h1 class="text-center mb-5 ">Frequently Asked Questions</h1>
 
-            <div class="accordion accordion-flush" id="questions">
-                <div class="accordion-item">
+            <div class="accordion accordion-flush " id="questions">
+                <div class="accordion-item ">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionOne">
+                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#questionOne">
                           How do i register
                       </button>
                     </h2>
@@ -124,14 +221,14 @@
                     </div>
                 </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button type="button" class="accordion-button collapsed" data-bs-target="#questionTwo" data-bs-toggle="collapse">
+                <div class="accordion-item ">
+                    <h2 class="accordion-header ">
+                        <button type="button " class="accordion-button collapsed " data-bs-target="#questionTwo" data-bs-toggle="collapse">
                          School fee payment
                           </button>
                     </h2>
                     <div id="questionTwo" class="accordion-collapse collapse " data-bs-parent="#questions">
-                        <div class="accordion-body">
+                        <div class="accordion-body ">
                             <strong>
                                 School fee payment can be done online or offline using your ATM card. <br>
                                 Offline payments can be done in the bank to this <br>
@@ -144,14 +241,14 @@
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-target="#questionThree" data-bs-toggle="collapse">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button collapsed " type="button " data-bs-target="#questionThree" data-bs-toggle="collapse">
                             Requirements for screening
                           </button>
                     </h2>
 
-                    <div id="questionThree" class="accordion-collapse collapse" data-bs-parent="#questions">
-                        <div class="accordion-body">
+                    <div id="questionThree" class="accordion-collapse collapse " data-bs-parent="#questions">
+                        <div class="accordion-body ">
                             <strong>
                               For the majority of applicants, collegiate institutions will require transcripts showing a high school diploma or proof of successful completion of the GED, an entrance essay, ACT or SAT scores, and letters of reference. Additional requirements could also include TOEFL scores and a resume or curriculum vitae.24 Mar 2021
                               </strong>
@@ -160,11 +257,11 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button type="button" class="accordion-button collapsed" data-bs-target="#questionFour" data-bs-toggle="collapse">Syllabus for entry exams</button>
+                    <h2 class="accordion-header ">
+                        <button type="button" class="accordion-button collapsed " data-bs-target="#questionFour" data-bs-toggle="collapse">Syllabus for entry exams</button>
                     </h2>
-                    <div id="questionFour" class="accordion-collapse collapse" data-bs-parent="#questions">
-                        <div class="accordion-body">
+                    <div id="questionFour" class="accordion-collapse collapse " data-bs-parent="#questions">
+                        <div class="accordion-body ">
                             <strong>Syllabus are given to you by our online coaching instructors after you have registered for the exams. </strong>
                         </div>
                     </div>
@@ -175,59 +272,126 @@
 
         </div>
     </section>
+    <!-- what we provide starts-->
+    <section id="services ">
+        <div class="container ">
 
+            <h2 class="text-center ">What We Provide</h2>
+            <div class="d-md-flex flex-wrap justify-content-between wow backInDown">
+                <div class="col-md-5 text-center d-flex flex-wrap align-items-center ">
+                    <div class=" p-3 my-5 col-12 "><img src="images/Education.svg " class="img-fluid w-50 " alt=" "></i>
+                    </div>
+                    <div class="text-center p-3 ">
+                        <h2>Quality Education</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus aliquid consequatur soluta, recusandae dolorum vel.</p>
+                    </div>
+                </div>
+                <div class="wow backInRight col-md-5 text-center d-flex flex-wrap align-items-center ">
+                    <div class=" p-3 my-5 col-12 "><img src="images/shelves.svg " class="img-fluid w-50 " alt=" "></i>
+                    </div>
+                    <div class="text-center p-3 ">
+                        <h2>Activity Rooms</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus aliquid consequatur soluta, recusandae dolorum vel.</p>
+                    </div>
+                </div>
+                <div class="wow backInLeft col-md-5 text-center d-flex flex-wrap align-items-center ">
+                    <div class=" p-3 my-5 col-12 "><img src="images/environment.svg " class="img-fluid " alt=" "></i>
+                    </div>
+                    <div class="text-center p-3 ">
+                        <h2>Friendly Environment</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus aliquid consequatur soluta, recusandae dolorum vel.</p>
+                    </div>
+                </div>
+                <div class="wow backInUp col-md-5 text-center d-flex flex-wrap align-items-center ">
+                    <div class=" p-3 my-5 "><img src="images/teaching.svg " class="img-fluid " alt=" "></i>
+                    </div>
+                    <div class="text-center p-3 ">
+                        <h2>Full Day Sessions</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus aliquid consequatur soluta, recusandae dolorum vel.</p>
+                    </div>
+                </div>
+                <div class="wow bounceInLeft col-md-5 text-center d-flex flex-wrap align-items-center ">
+                    <div class=" p-3 my-5 "><img src="images/games.svg " class="img-fluid " alt=" "></i>
+                    </div>
+                    <div class="text-center p-3 ">
+                        <h2>Play Games Areas</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus aliquid consequatur soluta, recusandae dolorum vel.</p>
+                    </div>
+                </div>
+                <div class="wow bounceInRight col-md-5 text-center d-flex flex-wrap align-items-center ">
+                    <div class=" p-3 my-5 "><img src="images/quiz.svg " class="img-fluid " alt=" "></i>
+                    </div>
+                    <div class="text-center p-3 ">
+                        <h2>Quiz Session</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus aliquid consequatur soluta, recusandae dolorum vel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- what we provide ends-->
     <!-- news letter -->
-    <section class="py-5">
-        <div class="container">
-            <div class=" bg-dark text-light p-5">
+    <section class="py-5 ">
+        <div class="container ">
+            <div class=" bg-dark text-light p-5 ">
                 <h2>Subscribe to news letter</h2>
                 <div class="input-group ">
-                    <input type="text" class="form-control" placeholder="examplemail@mail.com"><button class="btn btn-secondary">Subscribe</button>
+                    <input type="text " class="form-control " placeholder="examplemail@mail.com "><button class="btn btn-secondary ">Subscribe</button>
                 </div>
             </div>
 
         </div>
     </section>
     <!-- section FOOTER -->
-    <section class="footer bg-dark">
-        <div class="container">
+    <section class="footer bg-dark ">
+        <div class="container ">
 
-            <footer class="py-5 justify-content-center align-items-center">
-                <div class="d-md-flex flex-wrap align-items-center justify-content-center col">
-                    <h1 class="shortly col">Shortly</h1>
-                    <div class="links justify-content-between col-6">
+            <footer class="py-5 justify-content-center align-items-center ">
+                <div class="d-md-flex flex-wrap align-items-center justify-content-center col ">
+                    <h1 class="shortly col ">Shortly</h1>
+                    <div class="links justify-content-between col-6 ">
 
-                        <div class="resources col">
+                        <div class="resources col ">
                             <h3>Resources</h3>
-                            <h3 class="link"><a href="#">Blog</a></h3>
-                            <h3 class="link"><a href="#">Developers</a></h3>
-                            <h3 class="link"><a href="#">Support</a></h3>
+                            <h3 class="link "><a href="# ">Blog</a></h3>
+                            <h3 class="link "><a href="# ">Developers</a></h3>
+                            <h3 class="link "><a href="# ">Support</a></h3>
                         </div>
-                        <div class="company col">
+                        <div class="company col ">
                             <h3>Company</h3>
-                            <h3 class="link"><a href="#">About</a></h3>
-                            <h3 class="link"><a href="#">Our Team</a></h3>
-                            <h3 class="link"><a href="#">Careers</a></h3>
-                            <h3 class="link"><a href="#">Contact</a></h3>
+                            <h3 class="link "><a href="# ">About</a></h3>
+                            <h3 class="link "><a href="# ">Our Team</a></h3>
+                            <h3 class="link "><a href="# ">Careers</a></h3>
+                            <h3 class="link "><a href="# ">Contact</a></h3>
                         </div>
 
                     </div>
                 </div>
 
                 <div class="icons col-12 col-lg-3 d-flex align-items-center justify-content-center ">
-                    <img src="images/icon-facebook.svg" class="icon mx-3">
-                    <img src="images/icon-twitter.svg" class="icon mx-3">
-                    <img src="images/icon-pinterest.svg" class="icon mx-3">
-                    <img src="images/icon-instagram.svg" class="icon mx-3">
+                    <img src="images/icon-facebook.svg " class="icon mx-3 ">
+                    <img src="images/icon-twitter.svg " class="icon mx-3 ">
+                    <img src="images/icon-pinterest.svg " class="icon mx-3 ">
+                    <img src="images/icon-instagram.svg " class="icon mx-3 ">
                 </div>
             </footer>
         </div>
 
 
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        wow = new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // default
+            offset: 0, // default
+            mobile: true, // default
+            live: true // default
+        })
+        wow.init();
+    </script>
+    <script src="script.js "></script>
 </body>
 
 </html>
